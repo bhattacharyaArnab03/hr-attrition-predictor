@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────
+# HR Attrition Analytics & Predictor — requirements.txt
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────
+
+# Core data science
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.10.0          # Week 2 — interactive dashboard
+
+# Machine learning
+scikit-learn>=1.1.0
+xgboost>=1.7.0          # Week 3 — main model
+shap>=0.41.0            # Week 3 — explainability
+
+# Deployment
+streamlit>=1.15.0       # Week 4 — web app
+
+# Jupyter (for .ipynb notebooks)
+jupyter>=1.0.0
+notebook>=6.5.0
+ipykernel>=6.16.0
